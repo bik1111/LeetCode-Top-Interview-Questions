@@ -15,4 +15,3 @@ class Solution:
 
 myObj = Solution()
 result = myObj.longestCommonPrefix(["fluent","flow","flower", "flight"])
-
