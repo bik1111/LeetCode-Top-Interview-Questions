@@ -3,12 +3,12 @@ from typing import Optional
 
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+
         # 객체 초기화 (None)
         cur = dummy = ListNode()
         # 둘 다 None이 아니면
         while list1 and list2:
             # list1이 더 작으면
-
             if list1.val < list2.val:
                 # cur이 list1을 바라보게 하고
                 cur.next = list1
